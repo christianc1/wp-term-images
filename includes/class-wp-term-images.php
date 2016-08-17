@@ -17,7 +17,7 @@ if ( ! class_exists( 'WP_Term_Images' ) ) :
  *
  * @since 0.1.0
  */
-final class WP_Term_Images extends WP_Term_Meta_UI {
+class WP_Term_Images extends WP_Term_Meta_UI {
 
 	/**
 	 * @var string Plugin version
