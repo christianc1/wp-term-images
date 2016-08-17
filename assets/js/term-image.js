@@ -87,7 +87,6 @@ jQuery( document ).ready( function( $ ) {
 
 			// Get the container
 			var $container = $(element).parent();
-			console.log($container);
 
 			if ( '' !== image ) {
 				if ( ! $( element ).hasClass( 'quick' ) ) {
